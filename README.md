@@ -1,15 +1,42 @@
 
-# Hi, I'm Md Mokhlesur Rahman Momin 👋
+<table>
+  <tr>
+    <td width="70%" valign="middle">
+      <h1>Md Mokhlesur Rahman Momin</h1>
+      <h3>MERN Stack Developer | Aspiring SQA Engineer</h3>
+      <p>
+        I am a developer focused on building full-stack web applications
+        and developing practical software quality assurance skills.
+      </p>
+      <p>
+        I enjoy solving problems, working with databases, building APIs,
+        and learning how to test applications systematically.
+      </p>
+      <p>
+        <a href="https://github.com/momin078">GitHub Profile</a>
+        &nbsp; | &nbsp;
+        <a href="https://www.linkedin.com/in/md-mokhlesur-rahman-momin-90394a291/">LinkedIn</a>
+      </p>
+    </td>
+    <td width="30%" align="center" valign="middle">
+      <img src="mern-project.png" alt="Md Mokhlesur Rahman Momin" width="160" />
+    </td>
+  </tr>
+</table>
 
-### MERN Stack Developer | Aspiring Software QA Engineer
+---
 
-I'm a developer interested in building full-stack web applications and improving software quality through systematic testing.
+## PROFESSIONAL SUMMARY
 
-I'm currently working on MERN stack projects and developing my practical skills in Software Quality Assurance (SQA).
+Aspiring MERN Stack Developer with experience building academic web
+applications and a growing interest in Software Quality Assurance.
+Currently working on full-stack development projects while strengthening
+skills in manual testing, test case design, API testing, and debugging.
 
-## Tech Stack
+## TECHNICAL SKILLS
 
 ### Development
+
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
@@ -19,41 +46,77 @@ I'm currently working on MERN stack projects and developing my practical skills 
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
 
 ### Software Quality Assurance
+
 - Manual Testing Fundamentals
-- Test Case Design
+- Test Scenario and Test Case Design
 - Bug Reporting
 - API Testing: Currently Practicing
+- Test Automation: Learning
 
-### Tools
+### Development Tools
+
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat&logo=visualstudiocode&logoColor=white)
 
-## Featured Projects
+---
 
-### MERN Stack Project
-Currently developing a full-stack web application using MongoDB, Express.js, React, and Node.js.
+## FEATURED PROJECTS
 
-Repository: Coming soon.
+### 01. MERN Stack Application
 
-### Metro Rail Management System
-A web application developed with ASP.NET MVC for metro rail operations and ticket management.
+**Technologies:** MongoDB, Express.js, React, Node.js
 
-[View Repository](https://github.com/momin078/MetroRailManagementSystem)
+Currently developing a full-stack web application using the MERN stack.
+The project is in progress.
 
-### Pharmacy Management System
-A web-based application built using PHP, HTML, CSS, and MySQL.
+- Repository: Add the actual project repository link when ready.
+- Testing: Add verified testing tools and results as testing work is completed.
 
-[View Repository](https://github.com/momin078/Pharmmacy-Management-System-DBMS-)
+### 02. Metro Rail Management System
 
-## Current Goals
+**Technologies:** ASP.NET MVC, C#
 
-- Build reliable full-stack web applications.
-- Improve debugging and problem-solving skills.
-- Practice manual and API testing.
-- Learn test automation and quality assurance workflows.
+A web application developed to support metro rail operations and ticket
+management.
 
-## Connect With Me
+- Project repository: [View on GitHub](https://github.com/momin078/MetroRailManagementSystem)
 
-- GitHub: [momin078](https://github.com/momin078)
-- LinkedIn: [Md Mokhlesur Rahman Momin](https://www.linkedin.com/in/md-mokhlesur-rahman-momin-90394a291/)
+### 03. Pharmacy Management System
+
+**Technologies:** PHP, HTML, CSS, MySQL
+
+A database-driven web application developed for pharmacy management.
+
+- Project repository: [View on GitHub](https://github.com/momin078/Pharmmacy-Management-System-DBMS-)
+
+---
+
+## CURRENT LEARNING FOCUS
+
+- Full-stack development with the MERN stack
+- REST API development and debugging
+- Manual software testing and test documentation
+- API testing and test automation fundamentals
+- Writing maintainable and reliable application code
+
+---
+
+## CAREER OBJECTIVE
+
+To grow as a software developer and quality assurance professional by
+building practical projects, strengthening technical fundamentals,
+and contributing to the development of reliable software applications.
+
+---
+
+## CONTACT
+
+- **GitHub:** [momin078](https://github.com/momin078)
+- **LinkedIn:** [Md Mokhlesur Rahman Momin](https://www.linkedin.com/in/md-mokhlesur-rahman-momin-90394a291/)
+
+---
+
+<p align="center">
+  <i>Building, testing, learning, and improving one project at a time.</i>
+</p>
