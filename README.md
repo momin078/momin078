@@ -1,10 +1,29 @@
+
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&height=190&color=0:101113,100:1B2920&text=MOMIN.&fontColor=00E5FF&fontSize=64&fontAlignY=42&desc=DEVELOPMENT%20%2F%20QUALITY%20%2F%20GROWTH&descSize=12&descAlignY=72" width="100%" alt="Momin's developer banner" />
+
+<img
+  src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=25&duration=2200&pause=850&color=C5FF63&background=101113&center=true&vCenter=true&repeat=true&width=1100&height=190&lines=%3E+BUILDING+FOR+THE+WEB...;%3E+ENGINEERING+BETTER+EXPERIENCES...;%3E+TESTING+FOR+RELIABILITY...;%3E+LEARNING.+BUILDING.+IMPROVING."
+  width="100%"
+  alt="Animated developer introduction"
+/>
 
 <br/>
 
-<img src="https://avatars.githubusercontent.com/u/156511214?v=4&size=240" width="135" alt="Md Mokhlesur Rahman Momin" />
+<img
+  src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&duration=2600&pause=700&color=00E5FF&background=101113&center=true&vCenter=true&repeat=true&width=700&height=40&lines=MERN+STACK+DEVELOPER;ASPIRING+SOFTWARE+QUALITY+ASSURANCE+ENGINEER;BUILD.+TEST.+LEARN.+IMPROVE."
+  alt="Animated professional role"
+/>
+
+
+
+<br/>
+
+<img
+  src="./mern-project.png"
+  width="135"
+  alt="Md Mokhlesur Rahman Momin"
+/>
 
 # Md Mokhlesur Rahman Momin
 
@@ -12,15 +31,8 @@
 
 *Building for the web. Learning to make it reliable.*
 
-<p>
-<a href="https://momin078.github.io/"><img src="https://img.shields.io/badge/Portfolio-Visit%20Website-C5FF63?style=flat-square&logo=googlechrome&logoColor=111111" alt="Portfolio" /></a>
-<a href="https://github.com/momin078"><img src="https://img.shields.io/badge/GitHub-Profile-222522?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
-<a href="https://www.linkedin.com/in/md-mokhlesur-rahman-momin-90394a291/"><img src="https://img.shields.io/badge/LinkedIn-Connect-222522?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-</p>
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&duration=2800&pause=900&color=00E5FF&center=true&vCenter=true&width=520&lines=Building+MERN+Stack+Applications;Practicing+Software+Quality+Assurance;Learning+API+Testing+and+Automation;Build.+Test.+Learn.+Improve." alt="Animated introduction" />
-
 </div>
+
 
 ---
 
@@ -32,17 +44,18 @@
 
 </div>
 
-I'm a developer focused on full-stack web development and developing practical Software Quality Assurance skills. I enjoy solving problems, working with databases, building APIs, and learning how to test applications systematically.
+I'm **Md Mokhlesur Rahman Momin**, a MERN Stack Developer and Aspiring Software Quality Assurance Engineer. I enjoy building web applications, solving technical problems, working with databases, and understanding how software behaves under different conditions.
 
-My goal is to build useful web applications while developing a quality-first approach to software.
+I'm developing my full-stack development skills while building a stronger foundation in software testing, defect identification, and application reliability.
 
+<div align="center">
 <table>
 <tr>
 <td width="50%" valign="top">
 
 ### Web Development
 
-- React-based interfaces
+- React-based user interfaces
 - Node.js and Express APIs
 - MongoDB integration
 - Debugging and problem-solving
@@ -54,12 +67,23 @@ My goal is to build useful web applications while developing a quality-first app
 
 - Manual testing fundamentals
 - Test scenario and test case design
-- Bug reporting
-- API testing practice
+- Defect identification and reporting
+- API testing and automation practice
 
 </td>
 </tr>
 </table>
+</td>
+</td>
+</td>
+
+<div align="center">
+
+<sub>MY PRINCIPLE</sub>
+
+**Build with purpose. Test with care. Improve continuously.**
+
+</div>
 
 ---
 
@@ -69,22 +93,30 @@ My goal is to build useful web applications while developing a quality-first app
 
 ## Technologies I work with
 
-<img src="https://skillicons.dev/icons?i=js,react,nodejs,express,mongodb,html,css&theme=dark" alt="MERN and web technologies" />
+<img src="https://skillicons.dev/icons?i=js,react,nodejs,express,mongodb,html,css&theme=dark" alt="JavaScript React Node.js Express MongoDB HTML CSS" />
 
 <br/><br/>
 
-<img src="https://skillicons.dev/icons?i=git,github,vscode,cs,dotnet,php,mysql&theme=dark" alt="Tools and additional technologies" />
+<img src="https://skillicons.dev/icons?i=git,github,vscode,cs,dotnet,php,mysql&theme=dark" alt="Git GitHub VS Code C Sharp .NET PHP MySQL" />
 
 </div>
 
-| Area | Technologies and current focus |
+| Area | Technologies and focus |
 |---|---|
 | MERN Development | JavaScript, React, Node.js, Express.js, MongoDB |
-| Web Fundamentals | HTML, CSS |
-| Software QA | Manual testing, test cases, bug reporting |
+| Web Fundamentals | HTML5, CSS3 |
+| Software QA | Manual testing, test scenarios, test cases, defect reporting |
 | API Testing | Currently practising |
 | Additional Technologies | ASP.NET MVC, C#, PHP, MySQL |
 | Development Tools | Git, GitHub, VS Code |
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/BUILD-React%20%26%20MERN-C5FF63?style=flat-square&labelColor=17191D" alt="Build" />
+<img src="https://img.shields.io/badge/TEST-Manual%20QA-A99BFF?style=flat-square&labelColor=17191D" alt="Test" />
+<img src="https://img.shields.io/badge/IMPROVE-Continuous%20Learning-8CE2C8?style=flat-square&labelColor=17191D" alt="Improve" />
+
+</div>
 
 ---
 
@@ -93,6 +125,8 @@ My goal is to build useful web applications while developing a quality-first app
 <sub>03 / SELECTED WORK</sub>
 
 ## Projects built through practice
+
+*Different projects. Different challenges. Continuous learning.*
 
 </div>
 
@@ -104,7 +138,7 @@ My goal is to build useful web applications while developing a quality-first app
 
 ### MERN Stack Application
 
-A full-stack web application currently in development using the MERN ecosystem.
+Developing practical full-stack applications using the MERN ecosystem, with an emphasis on frontend functionality, backend logic, and database integration.
 
 `MongoDB` `Express.js` `React` `Node.js`
 
@@ -119,9 +153,11 @@ A full-stack web application currently in development using the MERN ecosystem.
 
 ### Metro Rail Management System
 
-A web application developed for metro rail operations and ticket management.
+A web application developed to support metro rail operations and ticket management.
 
 `ASP.NET MVC` `C#`
+
+**Focus:** Application structure, business logic, and database integration.
 
 <a href="https://github.com/momin078/MetroRailManagementSystem">View project ↗</a>
 
@@ -134,9 +170,11 @@ A web application developed for metro rail operations and ticket management.
 
 ### Pharmacy Management System
 
-A web-based application developed for pharmacy management.
+A database-driven web application designed to support pharmacy management operations.
 
 `PHP` `HTML` `CSS` `MySQL`
+
+**Focus:** CRUD operations and database fundamentals.
 
 <a href="https://github.com/momin078/Pharmmacy-Management-System-DBMS-">View project ↗</a>
 
@@ -147,20 +185,24 @@ A web-based application developed for pharmacy management.
 
 ### Library Management System
 
-A library management project listed in my project experience.
+A C++ project focused on library management concepts and programming fundamentals.
 
 `C++`
+
+**Focus:** Core programming and application logic.
 
 </td>
 </tr>
 <tr>
 <td colspan="2" valign="top">
 
-<img src="https://img.shields.io/badge/05-ROBOTICS%20%2F%20HARDWARE-A99BFF?style=flat-square&labelColor=17191D" alt="Robotics project" />
+<img src="https://img.shields.io/badge/05-HARDWARE%20PROJECT-A99BFF?style=flat-square&labelColor=17191D" alt="Hardware project" />
 
 ### Automatic Fire Detection & Alarm System
 
-A project involving automatic fire detection and an alarm system.
+A project involving automatic fire detection and an alarm system, focused on basic detection and alert functionality.
+
+**Focus:** Hardware interaction and safety-oriented system behaviour.
 
 </td>
 </tr>
@@ -174,9 +216,11 @@ A project involving automatic fire detection and an alarm system.
 
 ## Better software starts with better testing
 
+<p>Writing code is one part of development. Understanding how it can fail is another.</p>
+
 </div>
 
-<table>
+<table width="100%">
 <tr>
 <td width="25%" align="center" valign="top">
 
@@ -184,7 +228,7 @@ A project involving automatic fire detection and an alarm system.
 
 ### Understand
 
-Requirements and expected behaviour
+<sub>Requirements and expected behaviour</sub>
 
 </td>
 <td width="25%" align="center" valign="top">
@@ -193,7 +237,7 @@ Requirements and expected behaviour
 
 ### Design
 
-Test scenarios and test cases
+<sub>Test scenarios and test cases</sub>
 
 </td>
 <td width="25%" align="center" valign="top">
@@ -202,7 +246,7 @@ Test scenarios and test cases
 
 ### Investigate
 
-Reproduce and report defects
+<sub>Reproduce and report defects</sub>
 
 </td>
 <td width="25%" align="center" valign="top">
@@ -211,7 +255,7 @@ Reproduce and report defects
 
 ### Improve
 
-Practise API testing and automation
+<sub>Learn testing and automation</sub>
 
 </td>
 </tr>
@@ -225,13 +269,14 @@ Practise API testing and automation
 
 ## My development activity
 
-<img src="https://github-readme-stats.vercel.app/api?username=momin078&show_icons=true&hide_border=true&bg_color=0D1117&title_color=C5FF63&icon_color=C5FF63&text_color=C9D1D9&rank_icon=github" height="165" alt="GitHub statistics" />
+<p><sub>A snapshot of my public GitHub repositories and activity.</sub></p>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=momin078&layout=compact&hide_border=true&bg_color=0D1117&title_color=C5FF63&text_color=C9D1D9" height="165" alt="Most used programming languages" />
+<img src="https://github-readme-stats.vercel.app/api?username=momin078&show_icons=true&hide_border=true&bg_color=0D1117&title_color=C5FF63&icon_color=C5FF63&text_color=C9D1D9&rank_icon=github" width="49%" alt="GitHub statistics" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=momin078&layout=compact&hide_border=true&bg_color=0D1117&title_color=C5FF63&text_color=C9D1D9" width="41%" alt="Most used programming languages" />
 
-<br/>
+<br/><br/>
 
-<img src="https://streak-stats.demolab.com?user=momin078&hide_border=true&background=0D1117&ring=C5FF63&fire=C5FF63&currStreakLabel=C5FF63&sideLabels=C9D1D9&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=8B949E" alt="GitHub contribution streak" />
+<img src="https://streak-stats.demolab.com?user=momin078&hide_border=true&background=0D1117&ring=C5FF63&fire=C5FF63&currStreakLabel=C5FF63&sideLabels=C9D1D9&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=8B949E" width="70%" alt="GitHub contribution streak" />
 
 </div>
 
@@ -241,13 +286,66 @@ Practise API testing and automation
 
 <img src="https://raw.githubusercontent.com/momin078/momin078/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Animated GitHub contribution snake" />
 
+<sub>Generated from my GitHub contribution graph.</sub>
+
 </div>
 
 ---
 
 <div align="center">
 
-<sub>06 / LET'S CONNECT</sub>
+<sub>06 / CURRENT FOCUS</sub>
+
+## What I'm working towards
+
+</div>
+
+<table width="100%">
+<tr>
+<td align="center" width="25%" valign="top">
+
+<h3>01</h3>
+
+**BUILD**
+
+<sub>Full-stack web applications</sub>
+
+</td>
+<td align="center" width="25%" valign="top">
+
+<h3>02</h3>
+
+**TEST**
+
+<sub>Manual and API testing</sub>
+
+</td>
+<td align="center" width="25%" valign="top">
+
+<h3>03</h3>
+
+**DEBUG**
+
+<sub>Identify and investigate defects</sub>
+
+</td>
+<td align="center" width="25%" valign="top">
+
+<h3>04</h3>
+
+**IMPROVE**
+
+<sub>Reliable software development</sub>
+
+</td>
+</tr>
+</table>
+
+---
+
+<div align="center">
+
+<sub>07 / LET'S CONNECT</sub>
 
 ## Let's build something useful.
 
@@ -255,7 +353,7 @@ Interested in web development, software testing, and practical technology projec
 
 <br/>
 
-<a href="https://momin078.github.io/"><img src="https://img.shields.io/badge/EXPLORE%20MY%20PORTFOLIO-C5FF63?style=for-the-badge&logo=googlechrome&logoColor=111111" alt="Portfolio" /></a>
+<a href="https://momin078.github.io/"><img src="https://img.shields.io/badge/EXPLORE%20MY%20PORTFOLIO-C5FF63?style=for-the-badge&logo=googlechrome&logoColor=111111" alt="Visit portfolio" /></a>
 
 <br/><br/>
 
