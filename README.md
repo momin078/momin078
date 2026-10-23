@@ -119,6 +119,7 @@ I'm developing my full-stack development skills while building a stronger founda
 </div>
 
 
+
 <div align="center">
 
 <sub>03 / SELECTED WORK</sub>
@@ -133,7 +134,7 @@ I'm developing my full-stack development skills while building a stronger founda
 <tr>
 <td width="50%" valign="top">
 
-<img src="https://img.shields.io/badge/01-FEATURED%20PROJECT-C5FF63?style=flat-square&labelColor=17191D" />
+<img src="https://img.shields.io/badge/01-FEATURED%20PROJECT-C5FF63?style=flat-square&labelColor=17191D" alt="Featured project" />
 
 ### DocFlow — Healthcare Appointment & Live Queue System
 
@@ -154,7 +155,7 @@ A full-stack MERN application for healthcare appointments, patient registration,
 </td>
 <td width="50%" valign="top">
 
-<img src="https://img.shields.io/badge/02-WEB%20APPLICATION-A99BFF?style=flat-square&labelColor=17191D" />
+<img src="https://img.shields.io/badge/02-WEB%20APPLICATION-A99BFF?style=flat-square&labelColor=17191D" alt="Web application" />
 
 ### Metro Rail Management System
 
@@ -176,7 +177,7 @@ A web application built with ASP.NET MVC for metro operations and ticket managem
 <tr>
 <td width="50%" valign="top">
 
-<img src="https://img.shields.io/badge/03-DATABASE%20APPLICATION-8CE2C8?style=flat-square&labelColor=17191D" />
+<img src="https://img.shields.io/badge/03-DATABASE%20APPLICATION-8CE2C8?style=flat-square&labelColor=17191D" alt="Database application" />
 
 ### Pharmacy Management System
 
@@ -191,7 +192,7 @@ A database-driven web application for pharmacy management operations.
 </td>
 <td width="50%" valign="top">
 
-<img src="https://img.shields.io/badge/04-C%2B%2B%20PROJECT-8CE2C8?style=flat-square&labelColor=17191D" />
+<img src="https://img.shields.io/badge/04-C%2B%2B%20PROJECT-8CE2C8?style=flat-square&labelColor=17191D" alt="C++ project" />
 
 ### Library Management System
 
@@ -207,7 +208,7 @@ A C++ project focused on library management concepts and programming fundamental
 <tr>
 <td colspan="2" valign="top">
 
-<img src="https://img.shields.io/badge/05-HARDWARE%20PROJECT-A99BFF?style=flat-square&labelColor=17191D" />
+<img src="https://img.shields.io/badge/05-HARDWARE%20PROJECT-A99BFF?style=flat-square&labelColor=17191D" alt="Hardware project" />
 
 ### Automatic Fire Detection & Alarm System
 
@@ -238,7 +239,6 @@ A hardware-oriented project involving automatic fire detection and alarm functio
 ---
 
 
-<div align="center">
 
 <sub>04 / QUALITY MINDSET</sub>
 
