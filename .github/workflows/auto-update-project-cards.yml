@@ -20,47 +20,15 @@ jobs:
     steps:
       - name: Update README project cards
         uses: actions/github-script@v7
-
-        env:
-          REPOSITORIES_TOKEN: ${{ secrets.REPOSITORIES_TOKEN }}
-
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-
+          github-token: ${{ secrets.REPOSITORIES_TOKEN }}
           script: |
-            const { getOctokit } = require("@actions/github");
-
             const owner = context.repo.owner;
             const repo = context.repo.repo;
             const branch = context.ref.replace("refs/heads/", "");
 
             const START = "<!-- AUTO-PROJECTS:START -->";
             const END = "<!-- AUTO-PROJECTS:END -->";
-
-            if (!process.env.REPOSITORIES_TOKEN) {
-              throw new Error("REPOSITORIES_TOKEN secret is missing.");
-            }
-
-            // Use a read-only PAT to discover public and private repos.
-            const reader = getOctokit(
-              process.env.REPOSITORIES_TOKEN
-            );
-
-            const repositories = await reader.paginate(
-              reader.rest.repos.listForAuthenticatedUser,
-              {
-                visibility: "all",
-                affiliation: "owner",
-                sort: "updated",
-                direction: "desc",
-                per_page: 100
-              }
-            );
-
-            // Include public, private and archived repositories.
-            const projects = repositories;
-
-            core.info(`Repositories found: ${projects.length}`);
 
             const escapeHtml = (value = "") =>
               String(value).replace(/[&<>"']/g, char => ({
@@ -71,31 +39,41 @@ jobs:
                 "'": "&#39;"
               })[char]);
 
+            // Fetch all repositories owned by the authenticated user.
+            const repositories = await github.paginate(
+              github.rest.repos.listForAuthenticatedUser,
+              {
+                visibility: "all",
+                affiliation: "owner",
+                sort: "updated",
+                direction: "desc",
+                per_page: 100
+              }
+            );
+
+            // Do not display the profile README repository itself.
+            const projects = repositories.filter(
+              project => project.name.toLowerCase() !== owner.toLowerCase()
+            );
+
+            core.info(`Repositories found: ${repositories.length}`);
+            core.info(`Project cards to display: ${projects.length}`);
+
             const cards = projects.map((project, index) => {
               const number = String(index + 1).padStart(2, "0");
               const name = escapeHtml(project.name);
               const description = escapeHtml(
-                project.description ||
-                "A repository owned by " + owner + "."
+                project.description || "A project by " + owner + "."
               );
-              const language = escapeHtml(
-                project.language || "Various"
-              );
+              const language = escapeHtml(project.language || "Various");
               const url = escapeHtml(project.html_url);
               const stars = project.stargazers_count;
-
-              const visibility = project.private
-                ? "PRIVATE"
-                : "PUBLIC";
-
-              const visibilityColor = project.private
-                ? "A99BFF"
-                : "C5FF63";
+              const visibility = project.private ? "PRIVATE" : "PUBLIC";
 
               return `
               <td width="50%" valign="top">
 
-              <img src="https://img.shields.io/badge/${number}-${visibility}-${visibilityColor}?style=flat-square&labelColor=17191D" alt="${visibility} repository" />
+              <img src="https://img.shields.io/badge/${number}%20${visibility}-PROJECT-C5FF63?style=flat-square&labelColor=17191D" alt="${visibility} project" />
 
               <h3><a href="${url}">${name}</a></h3>
 
@@ -114,7 +92,7 @@ jobs:
 
             for (let i = 0; i < cards.length; i += 2) {
               const secondCard = cards[i + 1] ||
-                '<td width="50%"></td>';
+                '<td width="50%" valign="top"></td>';
 
               rows.push(`
               <tr>
@@ -129,7 +107,6 @@ jobs:
               </table>`
               : "<p>No repositories found.</p>";
 
-            // Read the profile README using GITHUB_TOKEN.
             const response = await github.rest.repos.getContent({
               owner,
               repo,
@@ -137,10 +114,8 @@ jobs:
               ref: branch
             });
 
-            if (
-              Array.isArray(response.data) ||
-              response.data.type !== "file"
-            ) {
+            if (Array.isArray(response.data) ||
+                response.data.type !== "file") {
               throw new Error("README.md was not found.");
             }
 
@@ -149,29 +124,22 @@ jobs:
               "base64"
             ).toString("utf8");
 
-            if (
-              current.split(START).length !== 2 ||
-              current.split(END).length !== 2
-            ) {
-              throw new Error(
-                "README must contain exactly one START marker and one END marker."
-              );
-            }
-
             const startIndex = current.indexOf(START);
             const endIndex = current.indexOf(END);
 
-            if (endIndex < startIndex) {
+            if (
+              startIndex === -1 ||
+              endIndex === -1 ||
+              endIndex < startIndex
+            ) {
               throw new Error(
-                "README project markers are incorrectly ordered."
+                "AUTO-PROJECTS markers are missing or incorrectly ordered."
               );
             }
 
             const updated =
               current.slice(0, startIndex + START.length) +
-              "\n\n" +
-              projectSection +
-              "\n\n" +
+              "\n\n" + projectSection + "\n\n" +
               current.slice(endIndex);
 
             if (updated === current) {
@@ -183,12 +151,12 @@ jobs:
               owner,
               repo,
               path: "README.md",
-              message: "docs: automatically update all project cards",
+              message: "docs: update all repository project cards",
               content: Buffer.from(updated, "utf8").toString("base64"),
               sha: response.data.sha,
               branch
             });
 
             core.info(
-              `Successfully updated ${projects.length} repositories.`
+              `Successfully updated ${projects.length} project cards.`
             );
