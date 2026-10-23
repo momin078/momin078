@@ -50,6 +50,7 @@ jobs:
                 per_page: 100
               }
             );
+            
 
             // Do not display the profile README repository itself.
             const projects = repositories.filter(
