@@ -131,7 +131,6 @@ I'm developing my full-stack development skills while building a stronger founda
 </div>
 
 <!-- AUTO-PROJECTS:START -->
-<!-- This section is managed by GitHub Actions. -->
 
 <table width="100%">
   
@@ -139,11 +138,62 @@ I'm developing my full-stack development skills while building a stronger founda
   
   <td width="50%" valign="top">
 
-  <img src="https://img.shields.io/badge/01-PROJECT-C5FF63?style=flat-square&labelColor=17191D" alt="Project 01" />
+  <img src="https://img.shields.io/badge/01%20PUBLIC-PROJECT-C5FF63?style=flat-square&labelColor=17191D" alt="PUBLIC project" />
+
+  <h3><a href="https://github.com/momin078/MetroRailManagementSystem">MetroRailManagementSystem</a></h3>
+
+  <p>Metro Rail Management System is a web-based application developed using ASP.NET MVC that automates metro operations such as user authentication, station and train management, ticket booking, distance-based fare calculation, seat availability tracking, and ticket cancellation with role-based access control.</p>
+
+  <p><code>C#</code> · ⭐ 1 stars</p>
+
+  <a href="https://github.com/momin078/MetroRailManagementSystem">
+    <img src="https://img.shields.io/badge/VIEW%20PROJECT-C5FF63?style=for-the-badge&logo=github&logoColor=111111" alt="View project" />
+  </a>
+
+  </td>
+  
+  <td width="50%" valign="top">
+
+  <img src="https://img.shields.io/badge/02%20PUBLIC-PROJECT-C5FF63?style=flat-square&labelColor=17191D" alt="PUBLIC project" />
+
+  <h3><a href="https://github.com/momin078/Pharmmacy-Management-System-DBMS-">Pharmmacy-Management-System-DBMS-</a></h3>
+
+  <p>A web-based Pharmacy Management System built using PHP, HTML, CSS, and MySQL.</p>
+
+  <p><code>PHP</code> · ⭐ 1 stars</p>
+
+  <a href="https://github.com/momin078/Pharmmacy-Management-System-DBMS-">
+    <img src="https://img.shields.io/badge/VIEW%20PROJECT-C5FF63?style=for-the-badge&logo=github&logoColor=111111" alt="View project" />
+  </a>
+
+  </td>
+  </tr>
+
+  <tr>
+  
+  <td width="50%" valign="top">
+
+  <img src="https://img.shields.io/badge/03%20PRIVATE-PROJECT-C5FF63?style=flat-square&labelColor=17191D" alt="PRIVATE project" />
+
+  <h3><a href="https://github.com/momin078/docflow">docflow</a></h3>
+
+  <p>This is my Software Analysis and Design project</p>
+
+  <p><code>JavaScript</code> · ⭐ 0 stars</p>
+
+  <a href="https://github.com/momin078/docflow">
+    <img src="https://img.shields.io/badge/VIEW%20PROJECT-C5FF63?style=for-the-badge&logo=github&logoColor=111111" alt="View project" />
+  </a>
+
+  </td>
+  
+  <td width="50%" valign="top">
+
+  <img src="https://img.shields.io/badge/04%20PUBLIC-PROJECT-C5FF63?style=flat-square&labelColor=17191D" alt="PUBLIC project" />
 
   <h3><a href="https://github.com/momin078/momin078.github.io">momin078.github.io</a></h3>
 
-  <p>A public project by momin078.</p>
+  <p>A project by momin078.</p>
 
   <p><code>CSS</code> · ⭐ 0 stars</p>
 
@@ -152,7 +202,6 @@ I'm developing my full-stack development skills while building a stronger founda
   </a>
 
   </td>
-  <td width="50%" valign="top"></td>
   </tr>
   </table>
 
