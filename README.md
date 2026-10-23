@@ -134,22 +134,36 @@ I'm developing my full-stack development skills while building a stronger founda
 <tr>
 <td width="50%" valign="top">
 
-<img src="https://img.shields.io/badge/01-IN%20PROGRESS-C5FF63?style=flat-square&labelColor=17191D" alt="In progress" />
+<img src="https://img.shields.io/badge/01-FEATURED%20PROJECT-C5FF63?style=flat-square&labelColor=17191D" alt="Featured project" />
 
-### MERN Stack Application
+### DocFlow — Healthcare Appointment & Live Queue System
 
-Developing practical full-stack applications using the MERN ecosystem, with an emphasis on frontend functionality, backend logic, and database integration.
+A full-stack MERN application for healthcare appointment booking, patient registration, and clinic queue management.
+
+**Core Features**
+
+- Patient registration with email OTP verification
+- Doctor discovery and appointment booking
+- Role-based dashboards for Admin, Doctor, Receptionist, and Patient
+- Appointment approval and live queue management
+- Consultation notes and prescription management
+- SSLCommerz payment integration
+- Local Ollama-based care assistant with fallback support
+
+**Tech Stack**
 
 `MongoDB` `Express.js` `React` `Node.js`
 
-**Status:** In progress
+**Additional Tools**
 
-<a href="https://github.com/momin078">Explore repositories ↗</a>
+`Docker` `GitHub Actions` `API Integration`
 
-</td>
-<td width="50%" valign="top">
+**Project Focus:** Full-stack development, authentication, database integration, and application reliability.
 
-<img src="https://img.shields.io/badge/02-WEB%20APPLICATION-A99BFF?style=flat-square&labelColor=17191D" alt="Web application" />
+<a href="https://github.com/momin078/docflow">
+  <img src="https://img.shields.io/badge/VIEW%20PROJECT-C5FF63?style=for-the-badge&logo=github&logoColor=111111" alt="View DocFlow project" />
+</a>
+
 
 ### Metro Rail Management System
 
