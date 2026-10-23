@@ -128,9 +128,10 @@ I'm developing my full-stack development skills while building a stronger founda
 
 *Different projects. Different challenges. Continuous learning.*
 
+
 </div>
 
-
+<!-- AUTO-PROJECTS:START -->
 <table>
 <tr>
 <td width="50%" valign="top">
@@ -232,7 +233,7 @@ A project involving automatic fire detection and an alarm system, focused on bas
 </tr>
 </table>
 
-
+<!-- AUTO-PROJECTS:END -->
 ---
 
 <div align="center">
