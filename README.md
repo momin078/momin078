@@ -131,6 +131,31 @@ I'm developing my full-stack development skills while building a stronger founda
 </div>
 
 <!-- AUTO-PROJECTS:START -->
+<!-- This section is managed by GitHub Actions. -->
+
+<table width="100%">
+  
+  <tr>
+  
+  <td width="50%" valign="top">
+
+  <img src="https://img.shields.io/badge/01-PROJECT-C5FF63?style=flat-square&labelColor=17191D" alt="Project 01" />
+
+  <h3><a href="https://github.com/momin078/momin078.github.io">momin078.github.io</a></h3>
+
+  <p>A public project by momin078.</p>
+
+  <p><code>CSS</code> · ⭐ 0 stars</p>
+
+  <a href="https://github.com/momin078/momin078.github.io">
+    <img src="https://img.shields.io/badge/VIEW%20PROJECT-C5FF63?style=for-the-badge&logo=github&logoColor=111111" alt="View project" />
+  </a>
+
+  </td>
+  <td width="50%" valign="top"></td>
+  </tr>
+  </table>
+
 <!-- AUTO-PROJECTS:END -->
 
 
