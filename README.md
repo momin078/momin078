@@ -118,7 +118,6 @@ I'm developing my full-stack development skills while building a stronger founda
 
 </div>
 
----
 
 <div align="center">
 
@@ -128,75 +127,116 @@ I'm developing my full-stack development skills while building a stronger founda
 
 *Different projects. Different challenges. Continuous learning.*
 
+</div>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<img src="https://img.shields.io/badge/01-FEATURED%20PROJECT-C5FF63?style=flat-square&labelColor=17191D" />
+
+### DocFlow — Healthcare Appointment & Live Queue System
+
+A full-stack MERN application for healthcare appointments, patient registration, and clinic queue management.
+
+**Core features**
+- Email OTP verification
+- Doctor discovery and appointment booking
+- Role-based dashboards
+- Live queue management
+- Consultation notes and prescriptions
+- SSLCommerz payment integration
+
+`MongoDB` `Express.js` `React` `Node.js`
+
+<a href="https://github.com/momin078/docflow">↗ View Project</a>
+
+</td>
+<td width="50%" valign="top">
+
+<img src="https://img.shields.io/badge/02-WEB%20APPLICATION-A99BFF?style=flat-square&labelColor=17191D" />
+
+### Metro Rail Management System
+
+A web application built with ASP.NET MVC for metro operations and ticket management.
+
+- User authentication
+- Station and train management
+- Distance-based fare calculation
+- Seat availability and ticket cancellation
+- Role-based access control
+
+`ASP.NET MVC` `C#`
+
+<a href="https://github.com/momin078/MetroRailManagementSystem">↗ View Project</a>
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+<img src="https://img.shields.io/badge/03-DATABASE%20APPLICATION-8CE2C8?style=flat-square&labelColor=17191D" />
+
+### Pharmacy Management System
+
+A database-driven web application for pharmacy management operations.
+
+**Focus:** CRUD operations, medicine management, and database fundamentals.
+
+`PHP` `HTML` `CSS` `MySQL`
+
+<a href="https://github.com/momin078/Pharmmacy-Management-System-DBMS-">↗ View Project</a>
+
+</td>
+<td width="50%" valign="top">
+
+<img src="https://img.shields.io/badge/04-C%2B%2B%20PROJECT-8CE2C8?style=flat-square&labelColor=17191D" />
+
+### Library Management System
+
+A C++ project focused on library management concepts and programming fundamentals.
+
+**Focus:** Core programming, data handling, and application logic.
+
+`C++`
+
+</td>
+</tr>
+
+<tr>
+<td colspan="2" valign="top">
+
+<img src="https://img.shields.io/badge/05-HARDWARE%20PROJECT-A99BFF?style=flat-square&labelColor=17191D" />
+
+### Automatic Fire Detection & Alarm System
+
+A hardware-oriented project involving automatic fire detection and alarm functionality.
+
+**Focus:** Detection mechanisms, hardware interaction, and safety-oriented system behaviour.
+
+</td>
+</tr>
+</table>
+
+---
+
+<div align="center">
+
+<sub>04 / MORE PROJECTS</sub>
+
+## Explore my repositories
+
+*New public repositories appear here automatically.*
 
 </div>
 
 <!-- AUTO-PROJECTS:START -->
-
-<table>
-<tr>
-
-<td width="50%" valign="top">
-
-<img src="https://img.shields.io/badge/01-PROJECT-C5FF63?style=flat-square&labelColor=17191D" alt="Project 01" />
-
-<h3><a href="https://github.com/momin078/MetroRailManagementSystem">MetroRailManagementSystem</a></h3>
-
-<p>Metro Rail Management System is a web-based application developed using ASP.NET MVC that automates metro operations such as user authentication, station and train management, ticket booking, distance-based fare calculation, seat availability tracking, and ticket cancellation with role-based access control.</p>
-
-<sub>LANGUAGE: C# · ★ 1</sub>
-
-<br/><br/>
-
-<a href="https://github.com/momin078/MetroRailManagementSystem">
-  <img src="https://img.shields.io/badge/VIEW%20PROJECT-C5FF63?style=for-the-badge&logo=github&logoColor=111111" alt="View project" />
-</a>
-
-</td>
-
-<td width="50%" valign="top">
-
-<img src="https://img.shields.io/badge/02-PROJECT-C5FF63?style=flat-square&labelColor=17191D" alt="Project 02" />
-
-<h3><a href="https://github.com/momin078/Pharmmacy-Management-System-DBMS-">Pharmmacy-Management-System-DBMS-</a></h3>
-
-<p>A web-based Pharmacy Management System built using PHP, HTML, CSS, and MySQL.</p>
-
-<sub>LANGUAGE: PHP · ★ 1</sub>
-
-<br/><br/>
-
-<a href="https://github.com/momin078/Pharmmacy-Management-System-DBMS-">
-  <img src="https://img.shields.io/badge/VIEW%20PROJECT-C5FF63?style=for-the-badge&logo=github&logoColor=111111" alt="View project" />
-</a>
-
-</td>
-</tr>
-<tr>
-
-<td width="50%" valign="top">
-
-<img src="https://img.shields.io/badge/03-PROJECT-C5FF63?style=flat-square&labelColor=17191D" alt="Project 03" />
-
-<h3><a href="https://github.com/momin078/momin078.github.io">momin078.github.io</a></h3>
-
-<p>A public project by momin078.</p>
-
-<sub>LANGUAGE: CSS · ★ 0</sub>
-
-<br/><br/>
-
-<a href="https://github.com/momin078/momin078.github.io">
-  <img src="https://img.shields.io/badge/VIEW%20PROJECT-C5FF63?style=for-the-badge&logo=github&logoColor=111111" alt="View project" />
-</a>
-
-</td>
-<td width="50%"></td>
-</tr>
-</table>
-
+<!-- This section is managed by GitHub Actions. -->
 <!-- AUTO-PROJECTS:END -->
+
 ---
+
 
 <div align="center">
 
