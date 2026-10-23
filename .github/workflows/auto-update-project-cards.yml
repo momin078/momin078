@@ -30,7 +30,28 @@ jobs:
             const START = "<!-- AUTO-PROJECTS:START -->";
             const END = "<!-- AUTO-PROJECTS:END -->";
 
-            // Fetch the owner's public repositories.
+            // Repositories already displayed as featured projects.
+            const featuredRepos = new Set([
+              "docflow",
+              "metrorailmanagementsystem",
+              "pharmmacy-management-system-dbms-",
+              "library-management-system",
+              "librarymanagementsystem",
+              "automatic-fire-detection-alarm-system",
+              "momin078"
+            ]);
+
+            // Escape text before inserting repository information into HTML.
+            const escapeHtml = (value = "") =>
+              String(value).replace(/[&<>"']/g, char => ({
+                "&": "&amp;",
+                "<": "&lt;",
+                ">": "&gt;",
+                '"': "&quot;",
+                "'": "&#39;"
+              })[char]);
+
+            // Fetch all public repositories, not just the first few.
             const repositories = await github.paginate(
               github.rest.repos.listForUser,
               {
@@ -42,71 +63,64 @@ jobs:
               }
             );
 
-            // Exclude forks, archived repositories and the profile repo.
-            const projects = repositories
-              .filter(project =>
-                !project.fork &&
-                !project.archived &&
-                project.name !== repo
-              )
-              .slice(0, 10);
+            // Keep featured projects in their original section only.
+            const projects = repositories.filter(project =>
+              !featuredRepos.has(project.name.toLowerCase())
+            );
 
-            const escapeHtml = value =>
-              String(value ?? "")
-                .replace(/&/g, "&amp;")
-                .replace(/</g, "&lt;")
-                .replace(/>/g, "&gt;")
-                .replace(/"/g, "&quot;")
-                .replace(/'/g, "&#39;");
+            core.info(`Public repositories found: ${repositories.length}`);
+            core.info(`Additional repositories: ${projects.length}`);
 
+            // Build one HTML card for each remaining repository.
             const cards = projects.map((project, index) => {
               const number = String(index + 1).padStart(2, "0");
               const name = escapeHtml(project.name);
               const description = escapeHtml(
                 project.description || "A public project by " + owner + "."
               );
-              const language = escapeHtml(
-                project.language || "Not specified"
-              );
+              const language = escapeHtml(project.language || "Various");
               const url = escapeHtml(project.html_url);
+              const stars = project.stargazers_count;
 
               return `
-            <td width="50%" valign="top">
+              <td width="50%" valign="top">
 
-            <img src="https://img.shields.io/badge/${number}-PROJECT-C5FF63?style=flat-square&labelColor=17191D" alt="Project ${number}" />
+              <img src="https://img.shields.io/badge/${number}-PROJECT-C5FF63?style=flat-square&labelColor=17191D" alt="Project ${number}" />
 
-            <h3><a href="${url}">${name}</a></h3>
+              <h3><a href="${url}">${name}</a></h3>
 
-            <p>${description}</p>
+              <p>${description}</p>
 
-            <sub>LANGUAGE: ${language} · ★ ${project.stargazers_count}</sub>
+              <p><code>${language}</code> · ⭐ ${stars} stars</p>
 
-            <br/><br/>
+              <a href="${url}">
+                <img src="https://img.shields.io/badge/VIEW%20PROJECT-C5FF63?style=for-the-badge&logo=github&logoColor=111111" alt="View project" />
+              </a>
 
-            <a href="${url}">
-              <img src="https://img.shields.io/badge/VIEW%20PROJECT-C5FF63?style=for-the-badge&logo=github&logoColor=111111" alt="View project" />
-            </a>
-
-            </td>`;
+              </td>`;
             });
 
+            // Arrange cards into two-column rows.
             const rows = [];
 
             for (let i = 0; i < cards.length; i += 2) {
-              rows.push(
-                "<tr>\n" +
-                cards[i] +
-                "\n" +
-                (cards[i + 1] || '<td width="50%"></td>') +
-                "\n</tr>"
-              );
+              const secondCard = cards[i + 1] ||
+                '<td width="50%" valign="top"></td>';
+
+              rows.push(`
+              <tr>
+              ${cards[i]}
+              ${secondCard}
+              </tr>`);
             }
 
             const projectSection = cards.length
-              ? "<table>\n" + rows.join("\n") + "\n</table>"
-              : "<p>No eligible public projects found.</p>";
+              ? `<table width="100%">
+              ${rows.join("\n")}
+              </table>`
+              : "<p>No additional public repositories found.</p>";
 
-            // Read the profile README.
+            // Read the current profile README.
             const response = await github.rest.repos.getContent({
               owner,
               repo,
@@ -115,11 +129,10 @@ jobs:
             });
 
             if (Array.isArray(response.data) ||
-                !response.data.content) {
-              throw new Error("README.md could not be read.");
+                response.data.type !== "file") {
+              throw new Error("README.md was not found.");
             }
 
-            const sha = response.data.sha;
             const current = Buffer.from(
               response.data.content,
               "base64"
@@ -138,11 +151,11 @@ jobs:
               );
             }
 
-            const contentStart = startIndex + START.length;
-
+            // Replace only the automatic section.
+            // All other README content remains unchanged.
             const updated =
-              current.slice(0, contentStart) +
-              "\n\n" +
+              current.slice(0, startIndex + START.length) +
+              "\n<!-- This section is managed by GitHub Actions. -->\n\n" +
               projectSection +
               "\n\n" +
               current.slice(endIndex);
@@ -152,16 +165,17 @@ jobs:
               return;
             }
 
+            // Save the updated README to the main branch.
             await github.rest.repos.createOrUpdateFileContents({
               owner,
               repo,
               path: "README.md",
               message: "docs: automatically update project cards",
-              content: Buffer.from(updated).toString("base64"),
-              sha,
+              content: Buffer.from(updated, "utf8").toString("base64"),
+              sha: response.data.sha,
               branch
             });
 
             core.info(
-              `Successfully updated ${projects.length} project cards.`
+              `Successfully updated ${projects.length} additional project cards.`
             );
