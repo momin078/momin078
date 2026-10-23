@@ -130,6 +130,7 @@ I'm developing my full-stack development skills while building a stronger founda
 
 </div>
 
+
 <table>
 <tr>
 <td width="50%" valign="top">
@@ -141,7 +142,6 @@ I'm developing my full-stack development skills while building a stronger founda
 A full-stack MERN application for healthcare appointment booking, patient registration, and clinic queue management.
 
 **Core Features**
-
 - Patient registration with email OTP verification
 - Doctor discovery and appointment booking
 - Role-based dashboards for Admin, Doctor, Receptionist, and Patient
@@ -164,6 +164,10 @@ A full-stack MERN application for healthcare appointment booking, patient regist
   <img src="https://img.shields.io/badge/VIEW%20PROJECT-C5FF63?style=for-the-badge&logo=github&logoColor=111111" alt="View DocFlow project" />
 </a>
 
+</td>
+<td width="50%" valign="top">
+
+<img src="https://img.shields.io/badge/02-WEB%20APPLICATION-A99BFF?style=flat-square&labelColor=17191D" alt="Web application" />
 
 ### Metro Rail Management System
 
@@ -173,10 +177,13 @@ A web application developed to support metro rail operations and ticket manageme
 
 **Focus:** Application structure, business logic, and database integration.
 
-<a href="https://github.com/momin078/MetroRailManagementSystem">View project ↗</a>
+<a href="https://github.com/momin078/MetroRailManagementSystem">
+  <img src="https://img.shields.io/badge/VIEW%20PROJECT-C5FF63?style=for-the-badge&logo=github&logoColor=111111" alt="View DocFlow project" />
+</a>
 
 </td>
 </tr>
+
 <tr>
 <td width="50%" valign="top">
 
@@ -190,7 +197,9 @@ A database-driven web application designed to support pharmacy management operat
 
 **Focus:** CRUD operations and database fundamentals.
 
-<a href="https://github.com/momin078/Pharmmacy-Management-System-DBMS-">View project ↗</a>
+<a href="https://github.com/momin078/Pharmmacy-Management-System-DBMS-">
+  <img src="https://img.shields.io/badge/VIEW%20PROJECT-C5FF63?style=for-the-badge&logo=github&logoColor=111111" alt="View DocFlow project" />
+</a>
 
 </td>
 <td width="50%" valign="top">
@@ -207,6 +216,7 @@ A C++ project focused on library management concepts and programming fundamental
 
 </td>
 </tr>
+
 <tr>
 <td colspan="2" valign="top">
 
@@ -221,6 +231,7 @@ A project involving automatic fire detection and an alarm system, focused on bas
 </td>
 </tr>
 </table>
+
 
 ---
 
