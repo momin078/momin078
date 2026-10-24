@@ -144,7 +144,7 @@ I'm developing my full-stack development skills while building a stronger founda
 
   <p>Demo private repository for Smart Hospital System</p>
 
-  <p><code>Various</code> · ⭐ 0 stars</p>
+  <p><code>HTML</code> · ⭐ 0 stars</p>
 
   <a href="https://github.com/momin078/SmartHospitalSystem">
     <img src="https://img.shields.io/badge/VIEW%20PROJECT-C5FF63?style=for-the-badge&logo=github&logoColor=111111" alt="View project" />
