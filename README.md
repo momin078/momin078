@@ -138,7 +138,23 @@ I'm developing my full-stack development skills while building a stronger founda
   
   <td width="50%" valign="top">
 
-  <img src="https://img.shields.io/badge/01%20PRIVATE-PROJECT-C5FF63?style=flat-square&labelColor=17191D" alt="PRIVATE project" />
+  <img src="https://img.shields.io/badge/01%20PUBLIC-PROJECT-C5FF63?style=flat-square&labelColor=17191D" alt="PUBLIC project" />
+
+  <h3><a href="https://github.com/momin078/hexa-ict-care">hexa-ict-care</a></h3>
+
+  <p>A project by momin078.</p>
+
+  <p><code>HTML</code> · ⭐ 0 stars</p>
+
+  <a href="https://github.com/momin078/hexa-ict-care">
+    <img src="https://img.shields.io/badge/VIEW%20PROJECT-C5FF63?style=for-the-badge&logo=github&logoColor=111111" alt="View project" />
+  </a>
+
+  </td>
+  
+  <td width="50%" valign="top">
+
+  <img src="https://img.shields.io/badge/02%20PRIVATE-PROJECT-C5FF63?style=flat-square&labelColor=17191D" alt="PRIVATE project" />
 
   <h3><a href="https://github.com/momin078/SmartHospitalSystem">SmartHospitalSystem</a></h3>
 
@@ -151,10 +167,13 @@ I'm developing my full-stack development skills while building a stronger founda
   </a>
 
   </td>
+  </tr>
+
+  <tr>
   
   <td width="50%" valign="top">
 
-  <img src="https://img.shields.io/badge/02%20PUBLIC-PROJECT-C5FF63?style=flat-square&labelColor=17191D" alt="PUBLIC project" />
+  <img src="https://img.shields.io/badge/03%20PUBLIC-PROJECT-C5FF63?style=flat-square&labelColor=17191D" alt="PUBLIC project" />
 
   <h3><a href="https://github.com/momin078/MetroRailManagementSystem">MetroRailManagementSystem</a></h3>
 
@@ -167,13 +186,10 @@ I'm developing my full-stack development skills while building a stronger founda
   </a>
 
   </td>
-  </tr>
-
-  <tr>
   
   <td width="50%" valign="top">
 
-  <img src="https://img.shields.io/badge/03%20PUBLIC-PROJECT-C5FF63?style=flat-square&labelColor=17191D" alt="PUBLIC project" />
+  <img src="https://img.shields.io/badge/04%20PUBLIC-PROJECT-C5FF63?style=flat-square&labelColor=17191D" alt="PUBLIC project" />
 
   <h3><a href="https://github.com/momin078/Pharmmacy-Management-System-DBMS-">Pharmmacy-Management-System-DBMS-</a></h3>
 
@@ -186,10 +202,13 @@ I'm developing my full-stack development skills while building a stronger founda
   </a>
 
   </td>
+  </tr>
+
+  <tr>
   
   <td width="50%" valign="top">
 
-  <img src="https://img.shields.io/badge/04%20PRIVATE-PROJECT-C5FF63?style=flat-square&labelColor=17191D" alt="PRIVATE project" />
+  <img src="https://img.shields.io/badge/05%20PRIVATE-PROJECT-C5FF63?style=flat-square&labelColor=17191D" alt="PRIVATE project" />
 
   <h3><a href="https://github.com/momin078/docflow">docflow</a></h3>
 
@@ -202,13 +221,10 @@ I'm developing my full-stack development skills while building a stronger founda
   </a>
 
   </td>
-  </tr>
-
-  <tr>
   
   <td width="50%" valign="top">
 
-  <img src="https://img.shields.io/badge/05%20PUBLIC-PROJECT-C5FF63?style=flat-square&labelColor=17191D" alt="PUBLIC project" />
+  <img src="https://img.shields.io/badge/06%20PUBLIC-PROJECT-C5FF63?style=flat-square&labelColor=17191D" alt="PUBLIC project" />
 
   <h3><a href="https://github.com/momin078/momin078.github.io">momin078.github.io</a></h3>
 
@@ -217,21 +233,6 @@ I'm developing my full-stack development skills while building a stronger founda
   <p><code>CSS</code> · ⭐ 0 stars</p>
 
   <a href="https://github.com/momin078/momin078.github.io">
-    <img src="https://img.shields.io/badge/VIEW%20PROJECT-C5FF63?style=for-the-badge&logo=github&logoColor=111111" alt="View project" />
-  </a>
-
-  </td>
-  <td width="50%" valign="top">
-
-  <img src="https://img.shields.io/badge/06%20PUBLIC-PROJECT-C5FF63?style=flat-square&labelColor=17191D" alt="PUBLIC project" />
-
-  <h3><a href="https://github.com/momin078/hexa-ict-care">hexa-ict-care</a></h3>
-
-  <p>Hexa ICT Care - HSC ICT Academic Care & Tuition Website</p>
-
-  <p><code>HTML</code> · ⭐ 0 stars</p>
-
-  <a href="https://github.com/momin078/hexa-ict-care">
     <img src="https://img.shields.io/badge/VIEW%20PROJECT-C5FF63?style=for-the-badge&logo=github&logoColor=111111" alt="View project" />
   </a>
 
